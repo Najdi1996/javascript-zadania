@@ -1,9 +1,9 @@
 //Zad 1
 
 let person = {
-    name: "Marcin",
-    surename: "Ziarko",
-    age: 21, 
+    name: "Dominik",
+    surename: "Najder",
+    age: 25, 
     country:"Poland",
     city: "Cracow",
     
@@ -16,10 +16,10 @@ let person = {
 }
 
 let person2 = {
-    name:"Magdalena",
-    surename:"Wojak",
-    age: 32, country:"Denmark",
-    city:"Copenhagen",
+    name:"Stefania",
+    surename:"Walny",
+    age: 32, country:"Germany",
+    city:"Berlin",
     
   newAge:  
     
