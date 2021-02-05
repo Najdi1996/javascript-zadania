@@ -16,15 +16,15 @@ class Person{
             this.age = age;
     }
 }
-const personA = new Person('Marcin', 'Ziarko', 21, 'Poland', 'Kraków', 'polish');
-const personB = new Person('Janusz', 'Korwin', 69, 'Poland', 'Warsaw', 'polish');
-const personC = new Person('Anna', 'Wesołowska', 23, 'Poland', 'Szczebrzeszyn', 'polish');
-const personD = new Person('Maria', 'Wesołowska', 54, 'Poland', 'Gniezno', 'polish');
-const personE = new Person('Ryszard', 'Peja', 50, 'Poland', 'Sopot', 'polish');
+const personA = new Person('Dominik', 'Najder', 25, 'Poland', 'Cracow', 'polish');
+const personB = new Person('Janusz', 'Korwin', 81, 'Poland', 'Warsaw', 'polish');
+const personC = new Person('Stefania', 'Szara', 23, 'Poland', 'Gniewno', 'polish');
+const personD = new Person('Lucyna', 'Igla', 54, 'Poland', 'Poznan', 'polish');
+const personE = new Person('Ryszard', 'Bratanek', 50, 'Poland', 'Gdynia', 'polish');
 
 personB.newAge(52);
 personE.newAge(20);
-personA.newCity("Andrychów");
+personA.newCity("Tarnów");
 
 console.log(personA);
 console.log(personB);
